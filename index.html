@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+</head>
+<body>
+    <h1>تسجيل الدخول بواسطة Instagram</h1>
+    <p>إذا لم يتم تحويلك تلقائيًا، الرجاء الضغط على الزر أدناه.</p>
+    <a href="javascript:handleRedirect()">تسجيل الدخول</a>
+
+    <script>
+      // هذا الكود يمكن أن يعالج إعادة التوجيه بعد الحصول على الإذن من المستخدم
+      function handleRedirect() {
+        // إعادة توجيه المستخدم إلى الخلفية لمعالجة الإذن
+        // يجب استبدال 'YOUR_APP_URI' بعنوان URI الخاص بتطبيقك
+        window.location.href = 'YOUR_APP_URI';
+      }
+    </script>
+</body>
+</html>
